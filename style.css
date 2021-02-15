@@ -1,18 +1,43 @@
 body {
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size:25px;
+}
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    background-color: aquamarine;
+    padding-left: 50px;
+}
+
+nav {
+    background-color: pink;
+    padding-left: 50px;
+}
+
+nav li {
+    list-style:none;
 }
 
 .intro {
-    background-color: grey;
-}
-
-.project1 {
-    background-color: pink;
-}
-
-header {
-    min-height: 400px;
-    background-color: lightblue;
-    font-family: 'Lora', serif;
+    text-align: left;
+    width: 100%;
     font-size: 2em;
+    padding-left: 50px;
+}
+
+.intro p {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.experience
+.education {
+    padding-left: 50px;
 }
